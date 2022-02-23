@@ -18,6 +18,12 @@ namespace TiposVarios
 
             Console.WriteLine(Plica +" " + Aspa +" "+ BarraInvertida);
 
+            double a = 3.1415;
+            float b = 3.1415f;
+            decimal c = 3.1415m;
+
+            Console.WriteLine(a +" " + b +" "+ c);
+
         }
 
     }
