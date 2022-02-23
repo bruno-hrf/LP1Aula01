@@ -8,6 +8,16 @@ namespace VariasStrings
     {
         static void Main (string[] args)
         {
+
+            double xx = 0.12345;
+            int ii = 18;
+
+            string xx2 = $"xx={xx:f2}";
+            string percentxx = $"xx={xx:p1}";
+
+            string hexaii = $"ii={ii:x}";
+            string moedaii = $"ii={ii:c}";
+
             string a = "Uma Plica \u0027";
             string b = "Uma nova linha \nlinha";
             string c = @"Uma Plica 0x0027 em Unicode";
@@ -30,6 +40,9 @@ namespace VariasStrings
             Console.WriteLine(x +"\n"+ xy +"\n"+ y + "\n" + z + "\n" + last);
             
             Console.WriteLine(@"Sálario = {0}€", salario);
+
+            Console.WriteLine(xx2 + "\n" + percentxx);
+            Console.WriteLine(hexaii + "\n" + moedaii);
             
         }
 
