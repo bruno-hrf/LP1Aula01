@@ -12,6 +12,12 @@ namespace TiposVarios
 
             Console.WriteLine(x +" " + y +" "+ z);
 
+            char Plica ='\u0027';
+            char Aspa = '\u0022';
+            char BarraInvertida = '\u005C';
+
+            Console.WriteLine(Plica +" " + Aspa +" "+ BarraInvertida);
+
         }
 
     }
