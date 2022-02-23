@@ -24,6 +24,12 @@ namespace TiposVarios
 
             Console.WriteLine(a +" " + b +" "+ c);
 
+            bool conditionF = false;
+            bool condicionT = true;
+            
+
+            Console.WriteLine("{0} {1}", conditionF, condicionT);
+
         }
 
     }
